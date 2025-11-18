@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency caches
+.pnpm-store/
+.bun/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Svelte / Next / React tooling caches
+.svelte-kit/
+.next/
+.nuxt/
+.cache/
+.eslintcache
+
+# Typescript build info
+*.tsbuildinfo
+
+# Misc
+*.log
